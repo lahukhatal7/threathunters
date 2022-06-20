@@ -11,7 +11,6 @@ Use this query to look for Trojan BumbleBee in the environment.
 
 #### Launch of lnk through cmd
 
-
 ```
 Event Type Id:8001-Process Activity AND Disposition:1 AND Process Name:cmd.exe AND Actor Command Line:/.*cmd.exe..\/c start \/wait .*.lnk.*/
 
